@@ -69,7 +69,7 @@ class SalaryCalcTest {
         testingClass.calcSalary();
         assertEquals("20671,20", testingClass.arrTf[9].getText());
 } 
-	@Test
+
     void calcSalary6() throws Exception {
         testingClass.arrTf[1].setText("110");
         testingClass.arrTf[2].setText("11");
